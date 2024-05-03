@@ -5,17 +5,17 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mcordes <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/03/06 09:03:35 by mcordes           #+#    #+#              #
-#    Updated: 2023/07/15 20:20:11 by mcordes          ###   ########.fr        #
+#    Created: 2023/10/18 17:10:10 by mcordes           #+#    #+#              #
+#    Updated: 2024/04/18 17:32:54 by mcordes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC =	main.cpp\
-		BitcoinExchange.cpp
+		PmergeMe.cpp
 
 OBJ = $(SRC:%.cpp=%.o)
 
-NAME = btc
+NAME = PmergeMe
 
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
